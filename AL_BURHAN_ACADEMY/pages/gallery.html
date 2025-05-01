@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Al Burhan Academy</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../assets/images/logo.png" alt="Al Burhan Academy Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <h1>Photo Gallery</h1>
+        <p>Explore life at Al Burhan Academy through our collection of images</p>
+    </section>
+
+    <section class="gallery-container">
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="campus">Campus</button>
+            <button class="filter-btn" data-filter="events">Events</button>
+            <button class="filter-btn" data-filter="students">Students</button>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item" data-category="campus">
+                <img src="../assets/images/school-building-1.jpg" alt="Main Building">
+                <div class="gallery-caption">Main Administrative Building</div>
+            </div>
+            <div class="gallery-item" data-category="campus">
+                <img src="../assets/images/school-building-2.jpg" alt="Library Complex">
+                <div class="gallery-caption">Modern Library Complex</div>
+            </div>
+            <div class="gallery-item" data-category="campus">
+                <img src="../assets/images/school-building-3.jpg" alt="Sports Facilities">
+                <div class="gallery-caption">Sports and Recreation Area</div>
+            </div>
+            <!-- Additional images would be added here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>123 Education Street</p>
+                <p>City, State 12345</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@alburhanacademy.edu</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="admissions.html">Apply Now</a></li>
+                    <li><a href="#">School Calendar</a></li>
+                    <li><a href="#">Parent Portal</a></li>
+                    <li><a href="#">Student Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Al Burhan Academy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
